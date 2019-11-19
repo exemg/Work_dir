@@ -1,0 +1,7 @@
+Scripts and function list
+
+avg_err	[function]		--	calculates the error of the mean for a population of measurements with uncertainties
+Comprehensive_beads_analysis	--	INCOMPLETE! -- Full suite for analysis of bead files in different folders
+Lat_res_foldercycle		--	Calculates the average lateral resolution of the bead profiles collected in one or more CSV files (options for multipeak fitting and "proper" bead selection)
+triplesave [function]		--	Saves a figure handle in tiff, jpeg and png format
+Z_distances_foldercycle		--	Calculates the average axial resolution of the bead profiles collected in one or more CSV files (options for multipeak fitting and "proper" bead selection)
