@@ -1,0 +1,18 @@
+Script list
+
+3D_grid_projection --	Takes the minimum and maximum projections from a PSFcheck stack and subtracts them
+bkg_weighted_subtraction -- Removes a linearly varying background from a stack 
+Change_names--		Recursively lists the files in a user-specified directory and change their names to match the name of the parent folder
+Grid_cleaner --		Removes background from a PSFcheck stack
+Makepseudostack --	Creates an exponentially brightening stack
+Middle_slice_finder --	Cleans a PSFcheck stack and finds the middle plane (depth returned in log)
+Quick_bkgsubtr -- 	Subtracts to an image/stack the mean filtered duplicate, renames the result and opens the property window to force the user to check the scaling
+Save_latplots -- 	Finds the maxima points in the median slice of a stack and collects the plots of the waist intensity along X and Y lines passing through each of them
+Save_literal_Maxima_Zplots -- Finds the maxima points in the median slice of a stack and collects the Z-plots of the intensity for each of them
+Save_Maxima_Zplots -- 	Finds the maxima points in the median slice of a stack, defines circular ROIs around them, and collects the Z-plots of the average ROI intensity for each of them
+Save_ROIs_values -- 	Saves on a table all the Z-plots of the average intensity of the ROIs present in the ROI Manager list
+Stack_curvesubtract -- 	Subtracts from a stack a depth-dependent intensity defined by a polynomial function
+Stack_depth_scale -- 	Multiplies each slice of a stack for an exponential factor dependent on depth
+Stack_folded_images -- 	Combines images in several folders into a stack
+Stack_subtract -- 	Subtracts to each slice of a stack the average intensity value of a ROI on that same slice
+Substack_spammer --	Divides a stack in a regular progression of smaller stacks, with a proper name

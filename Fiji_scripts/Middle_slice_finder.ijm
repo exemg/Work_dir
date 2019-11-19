@@ -38,7 +38,7 @@ Stack.setSlice(25);
 //saves the image
 saveAs("Tiff", dir+imagename3);
 
-//little bit of cleaning
+//little bit of tidying up
 selectWindow(imagename3);
 close("\\Others");
 

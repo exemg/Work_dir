@@ -1,4 +1,4 @@
-// Recursively lists the files in a user-specified directory.
+// Recursively lists the files in a user-specified directory and add them to a stack.
 // Open a file on the list by double clicking on it.
 // Possible causes of misbehaviour:
 // 1. The starting folder doesn't only have subfolders, but image files
@@ -25,9 +25,9 @@
            stackFiles(""+dir+list[i], j);
         }
         // if we have a regular file: if it is a .tif image, 
-        // 			1) open
-        // 			2) create Stack
-        // 	3 or more) add to stack
+        // 			1st) open
+        // 			2nd) create Stack
+        // 	3rd or more) add to stack
         else{
        		if (endsWith(list[i], ".tif")){
             	open(dir+list[i]);

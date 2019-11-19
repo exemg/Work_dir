@@ -1,4 +1,4 @@
-// Recursively lists the files in a user-specified directory.
+// Recursively lists the files in a user-specified directory and change their names to match the name of the folder.
 // Open a file on the list by double clicking on it.
 
   dir = getDirectory("Choose a Directory ");
